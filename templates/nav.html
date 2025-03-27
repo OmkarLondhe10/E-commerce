@@ -30,15 +30,14 @@
 
 				<div class="topbar-child2">
 					<span class="topbar-email">
-						<a href="https://github.com/zinmyoswe">
-						overmidnight12@gmail.com
-					    </a>
 					</span>
 
 					<div class="topbar-language rs1-select2">
 						<select class="selection-1" name="time">
 							<option>USD</option>
 							<option>EUR</option>
+							<option>IND</option>
+
 						</select>
 					</div>
 				</div>
@@ -80,11 +79,7 @@
 							</li>
 							{% else %}
 							<li>
-								<a href="#">Login</a>
-								<ul class="sub_menu">
-									<li><a href="{% url 'account_login' %}">Login</a></li>
-									<li><a href="{% url 'account_signup' %}">SignUp</a></li>
-								</ul>
+								
 							</li>
 							{% endif %}
 						</ul>
